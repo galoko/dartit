@@ -12,3 +12,5 @@
 6. Собрать ROOT.war используя mvn compile war:war.
 7. Поместить ROOT.war в Tomcat/webapps.
 8. Запустить Tomcat.
+
+Хост для проверки: http://pomas.mywire.org

@@ -39,6 +39,7 @@ public class Users extends HttpServlet {
     	if (token != null) {
 			Cookie tokenCookie = new Cookie("token", token);
 			tokenCookie.setHttpOnly(true);
+			tokenCookie.setPath("/");
 			
 	        resp.setStatus(HttpServletResponse.SC_OK);
 	        resp.addCookie(tokenCookie);

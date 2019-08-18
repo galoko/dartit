@@ -1,0 +1,65 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>DartIT Online Store</display-name>
+  
+  <servlet>
+	<servlet-name>registration</servlet-name>
+	<jsp-file>/registration.jsp</jsp-file>
+  </servlet>
+  <servlet>
+	<servlet-name>signIn</servlet-name>
+	<jsp-file>/signIn.jsp</jsp-file>
+  </servlet>
+  <servlet>
+	<servlet-name>unauthorized</servlet-name>
+	<jsp-file>/unauthorized.jsp</jsp-file>
+  </servlet>
+  <servlet>
+	<servlet-name>shop</servlet-name>
+	<jsp-file>/shop.jsp</jsp-file>
+  </servlet>
+  <servlet>
+	<servlet-name>basket</servlet-name>
+	<jsp-file>/basket.jsp</jsp-file>
+  </servlet>
+  <servlet>
+	<servlet-name>manager</servlet-name>
+	<jsp-file>/manager.jsp</jsp-file>
+  </servlet>
+  <servlet>
+	<servlet-name>statistics</servlet-name>
+	<jsp-file>/statistics.jsp</jsp-file>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>registration</servlet-name>
+	<url-pattern>/registration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+	<servlet-name>signIn</servlet-name>
+	<url-pattern>/signIn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+	<servlet-name>unauthorized</servlet-name>
+	<url-pattern>/unauthorized</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+	<servlet-name>shop</servlet-name>
+	<url-pattern>/shop</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+	<servlet-name>basket</servlet-name>
+	<url-pattern>/basket</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+	<servlet-name>manager</servlet-name>
+	<url-pattern>/manager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+	<servlet-name>statistics</servlet-name>
+	<url-pattern>/statistics</url-pattern>
+  </servlet-mapping>
+</web-app>
